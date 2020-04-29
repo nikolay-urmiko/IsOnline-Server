@@ -1,0 +1,26 @@
+﻿{% extends 'base.html' %}
+{% block title%}Точки под лицензией - обзор {% endblock %}
+{% block content %}
+    <table border="1" align="center">
+        <tr>
+            <td class="col1"><h3>Юр.Лицо</h3></td>
+            <td class="col1"><h3>Точка</h3></td>
+            <td class="col1"><h3>Последний онлайн</h3></td>
+            <td class="col1"><h3>окончание ключа ГОСТ</h3></td>
+        </tr>
+        {% for ur in dots_list %}
+         <tr><td>{{ur.ur_facce.ur_face_name}}</td>
+             <td>{{ur.namedot}}</td>
+              {% if ur.was_online %}
+                <td class="col2">{{ur.last_online}}</td>
+              {% else %}
+                <td>{{ur.last_online}}</td>
+              {% endif %}
+              {% if ur.GOST_check %}
+                <td class="col2">{{ur.GOST_key}}</td>
+              {% else %}
+                <td>{{ur.GOST_key}}</td>
+              {% endif %}
+        {% endfor %}
+    </table>
+{% endblock %}

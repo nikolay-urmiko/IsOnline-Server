@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30011.22
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "IsOnline Server", "IsOnline Server.pyproj", "{FCAACB38-1E40-4271-B8D7-A3CB64B10386}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FCAACB38-1E40-4271-B8D7-A3CB64B10386}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FCAACB38-1E40-4271-B8D7-A3CB64B10386}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FCAACB38-1E40-4271-B8D7-A3CB64B10386}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FCAACB38-1E40-4271-B8D7-A3CB64B10386}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B1ABD087-4462-4EAE-9B6D-13ECE6496598}
+	EndGlobalSection
+EndGlobal

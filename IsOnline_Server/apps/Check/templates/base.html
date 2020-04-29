@@ -1,0 +1,20 @@
+﻿<!DOCTYPE html>
+
+<html lang="ru" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <style type="text/css">
+      table {
+        width: 80%; /* Ширина таблицы */
+        }
+        td { padding: 5px; }
+        td.col1 { background: grey; color: white; }
+        td.col2 { background: red; color: white; }
+        td.col3 { background: yellow; }
+  </style>
+    <title>{% block title %}Мой сайт {% endblock %}</title>
+</head>
+<body>
+    {% block content %}{% endblock %}
+</body>
+</html>
